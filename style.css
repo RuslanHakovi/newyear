@@ -1,0 +1,203 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+
+}
+
+body {
+    margin: 0;
+}
+
+.wrapper {
+
+    min-height: 100%;
+    background-image: url(img/novyy-god-rozhdestvo-christmas-2506.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+ul>li {
+    list-style: none;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.header {
+    padding: 20px 0px;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    height: 50px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.557);
+}
+
+
+
+
+.nav__list {
+    display: flex;
+    column-gap: 50px;
+    justify-content: center;
+    font-size: 28px;
+}
+
+.nav__link {
+    font-family: 'Roboto',
+        sans-serif;
+    font-size: 20px;
+    color: azure;
+
+}
+
+.section {
+    height: 100vh;
+}
+
+.main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.main__desc {
+    max-width: 500px;
+    font-size: 18px;
+    font-family: 'Roboto',
+        sans-serif;
+    color: azure;
+
+}
+
+.main__link {
+    font-family: 'Lora',
+        serif;
+    display: block;
+    background-color: rgba(82, 75, 29, 0.62);
+    font-weight: bold;
+    padding: 10px;
+    min-width: 165px;
+    color: black;
+}
+
+.titlle {
+    background-image: url(img/1.jpg);
+    -webkit-background-clip: text;
+    background-size: cover;
+    background-clip: text;
+    color: transparent;
+    margin-bottom: 0;
+}
+
+.titlle__top {
+    font-family: 'Mr De Haviland', cursive;
+    font-size: 65px;
+}
+
+.titlle__bottom {
+    text-transform: uppercase;
+    font-family: 'Lora',
+        serif;
+    font-size: 55px;
+}
+
+
+
+
+.desc__info {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+    text-align: justify;
+    background: url(img/ltl\ vjhjp.png) no-repeat top left / 270px, url(img/deer.png) no-repeat bottom right /400px
+}
+
+.desc {
+    display: flex;
+
+}
+
+.section-col {
+    width: 50%;
+    height: 100%;
+}
+
+.desc__img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.subbtitle {
+    font-size: 40px;
+    background-image: url(img/1.jpg);
+    -webkit-background-clip: text;
+    background-size: cover;
+    background-clip: text;
+    color: transparent;
+    text-transform: uppercase;
+}
+
+.poem {
+    background-image: url(img/фон-1.jpg);
+    background-size: cover;
+    background-position: bottom left;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    min-height: 100vh;
+}
+
+.poem__block {
+    width: 60%;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.poem__item {
+
+    padding: 30px;
+    border-radius: 20px;
+    background-color: azure;
+    width: 45%;
+    flex-shrink: 0;
+    text-align: center;
+    font-size: 20px;
+}
+
+.footer {
+
+    width: 100%;
+    background-color: rgba(11, 24, 58, 0.493);
+    color: azure;
+    font-size: 20px;
+    padding: 20px 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
